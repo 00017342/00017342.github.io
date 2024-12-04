@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebTech.uz - FAQ</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" href="assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="overflow-controller">
+            <aside>
+                <div class="sidebar-content">
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        &#x2715;
+                    </button>
+                    <ul class="side-links" id="side-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./index.html">WebTech.uz</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="faq-container">
+                <h1>Frequently Asked Questions</h1>
+
+                <div class="faq-item">
+                    <h2 onclick="toggleAnswer(1)">
+                        What services do you offer?
+                    </h2>
+                    <p id="answer-1" class="answer">
+                        We offer a variety of services including web
+                        development, SEO optimization, and digital marketing
+                        strategies.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h2 onclick="toggleAnswer(2)">How can I contact you?</h2>
+                    <p id="answer-2" class="answer">
+                        You can reach us via the contact form on our website, or
+                        email us at support@mysite.com.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h2 onclick="toggleAnswer(3)">
+                        Do you provide support after project completion?
+                    </h2>
+                    <p id="answer-3" class="answer">
+                        Yes, we offer 24/7 support for all our services even
+                        after the project is complete.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 WebTech.uz. All rights reserved.</p>
+        </footer>
+
+        <script src="./scripts/scripts.js"></script>
+    </body>
+</html>

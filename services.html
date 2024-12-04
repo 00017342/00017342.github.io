@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebTech.uz - Services</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" href="assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="overflow-controller">
+            <aside>
+                <div class="sidebar-content">
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        &#x2715;
+                    </button>
+                    <ul class="side-links" id="side-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./index.html">WebTech.uz</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="services">
+                <h1>Our Services</h1>
+                <div>
+                    <label for="service-search">Search services: </label>
+                    <input type="text" name="search" id="service-search" />
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Custom websites built to your needs.</td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>SEO Optimization</td>
+                            <td>
+                                Improve your site ranking on search engines.
+                            </td>
+                            <td>$300</td>
+                        </tr>
+                        <tr>
+                            <td>Marketing Strategy</td>
+                            <td>Comprehensive plans to grow your business.</td>
+                            <td>$400</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 WebTech.uz. All rights reserved.</p>
+        </footer>
+
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>

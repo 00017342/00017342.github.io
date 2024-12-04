@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebTech.uz - Contact Us</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" href="assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="overflow-controller">
+            <aside>
+                <div class="sidebar-content">
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        &#x2715;
+                    </button>
+                    <ul class="side-links" id="side-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./index.html">WebTech.uz</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contact-form">
+                <h1>Contact Us</h1>
+                <form onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name" />
+
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email" />
+
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        placeholder="Your message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 WebTech.uz. All rights reserved.</p>
+        </footer>
+
+        <script src="./scripts/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WebTech.uz - Home</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" href="assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="overflow-controller">
+            <aside>
+                <div class="sidebar-content">
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        &#x2715;
+                    </button>
+                    <ul class="side-links" id="side-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./index.html">WebTech.uz</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            </nav>
+        </header>
+
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source
+                    src="https://videos.pexels.com/video-files/5708643/5708643-uhd_4096_2160_30fps.mp4"
+                    type="video/mp4" />
+            </video>
+            <section class="hero">
+                <h1>Welcome to WebTech.Uz</h1>
+                <p>
+                    This website was created to fulfill Web Technology module’s
+                    requirements and does not represent an actual company or
+                    service.
+                </p>
+                <a href="services.html" class="cta-button">Explore Services</a>
+            </section>
+        </div>
+
+        <main>
+            <section class="features">
+                <h2>Why Choose Us?</h2>
+                <div class="features-container">
+                    <div class="feature">
+                        <img src="https://cdn4.iconfinder.com/data/icons/facebook-and-social-media-1/64/Facebook_and_Social_Media-28-512.png" alt="Feature 1" />
+                        <h3>Reliable</h3>
+                        <p>Our services are trusted by thousands of users.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="https://cdn4.iconfinder.com/data/icons/facebook-and-social-media-1/64/Facebook_and_Social_Media-28-512.png" alt="Feature 2" />
+                        <h3>Efficient</h3>
+                        <p>We ensure timely and quality delivery.</p>
+                    </div>
+                    <div class="feature">
+                        <img src="https://cdn4.iconfinder.com/data/icons/facebook-and-social-media-1/64/Facebook_and_Social_Media-28-512.png" alt="Feature 3" />
+                        <h3>Supportive</h3>
+                        <p>Our support team is here for you 24/7.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 WebTech.uz. All rights reserved.</p>
+        </footer>
+
+        <script src="./scripts/scripts.js"></script>
+    </body>
+</html>
